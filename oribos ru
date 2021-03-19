@@ -1,0 +1,163 @@
+{
+    ["controlledChildren"] = {
+        [1] = "Enchanting",
+        [2] = "Fishing",
+        [3] = "Cooking",
+        [4] = "Leatherworking",
+        [5] = "Skinning",
+        [6] = "Tailoring",
+        [7] = "Blacksmithing",
+        [8] = "Mining",
+        [9] = "Alchemy",
+        [10] = "Herbalism",
+        [11] = "Inscription",
+        [12] = "Jewelcrafting",
+        [13] = "Engineering",
+        [14] = "Mailbox",
+        [15] = "Barber",
+        [16] = "Weekly Vault",
+        [17] = "Bank",
+        [18] = "Covenants",
+        [19] = "PvP Vendor",
+        [20] = "Inn",
+        [21] = "OG/SW",
+        [22] = "Portal UP South",
+        [23] = "Portal UP North",
+        [24] = "Portal UP East",
+        [25] = "Portal UP West",
+        [26] = "Ardenweald",
+        [27] = "Revendreth",
+        [28] = "Maldraxxus",
+        [29] = "Bastion",
+        [30] = "Flypath",
+        [31] = "Portal Down South",
+        [32] = "Portal Down North",
+        [33] = "Portal Down East",
+        [34] = "Portal Down West",
+        [35] = "Mailbox 2",
+        [36] = "OG/SW 2",
+        [37] = "Barber 2",
+        [38] = "Weekly Vault 2",
+        [39] = "Bank 2",
+        [40] = "Covenants 2",
+        [41] = "PvP Vendor 2",
+        [42] = "Professions 2",
+        [43] = "Inn 2",
+        [44] = "Ardenweald 2",
+        [45] = "Revendreth 2",
+        [46] = "Maldraxxus 2",
+        [47] = "Bastion 2",
+        [48] = "Flypath 2",
+    },
+    ["borderBackdrop"] = "Blizzard Tooltip",
+    ["authorOptions"] = {
+    },
+    ["preferToUpdate"] = false,
+    ["yOffset"] = 0,
+    ["anchorPoint"] = "CENTER",
+    ["borderColor"] = {
+        [1] = 0,
+        [2] = 0,
+        [3] = 0,
+        [4] = 1,
+    },
+    ["url"] = "https://wago.io/U7UFNotjr/6",
+    ["actions"] = {
+        ["start"] = {
+        },
+        ["finish"] = {
+        },
+        ["init"] = {
+        },
+    },
+    ["triggers"] = {
+        [1] = {
+            ["trigger"] = {
+                ["unit"] = "player",
+                ["type"] = "aura2",
+                ["spellIds"] = {
+                },
+                ["subeventSuffix"] = "_CAST_START",
+                ["subeventPrefix"] = "SPELL",
+                ["names"] = {
+                },
+                ["event"] = "Health",
+                ["debuffType"] = "HELPFUL",
+            },
+            ["untrigger"] = {
+            },
+        },
+    },
+    ["internalVersion"] = 44,
+    ["animation"] = {
+        ["start"] = {
+            ["easeStrength"] = 3,
+            ["type"] = "none",
+            ["duration_type"] = "seconds",
+            ["easeType"] = "none",
+        },
+        ["main"] = {
+            ["easeStrength"] = 3,
+            ["type"] = "none",
+            ["duration_type"] = "seconds",
+            ["easeType"] = "none",
+        },
+        ["finish"] = {
+            ["easeStrength"] = 3,
+            ["type"] = "none",
+            ["duration_type"] = "seconds",
+            ["easeType"] = "none",
+        },
+    },
+    ["version"] = 6,
+    ["subRegions"] = {
+    },
+    ["load"] = {
+        ["talent"] = {
+            ["multi"] = {
+            },
+        },
+        ["zoneIds"] = "",
+        ["spec"] = {
+            ["multi"] = {
+            },
+        },
+        ["class"] = {
+            ["multi"] = {
+            },
+        },
+        ["size"] = {
+            ["multi"] = {
+            },
+        },
+    },
+    ["backdropColor"] = {
+        [1] = 1,
+        [2] = 1,
+        [3] = 1,
+        [4] = 0.5,
+    },
+    ["scale"] = 1,
+    ["border"] = false,
+    ["borderEdge"] = "Square Full White",
+    ["regionType"] = "group",
+    ["borderSize"] = 2,
+    ["borderOffset"] = 4,
+    ["semver"] = "1.0.5",
+    ["tocversion"] = 90002,
+    ["id"] = "Oribos",
+    ["frameStrata"] = 1,
+    ["anchorFrameType"] = "SCREEN",
+    ["borderInset"] = 1,
+    ["uid"] = "N0uf2rj0vSN",
+    ["config"] = {
+    },
+    ["selfPoint"] = "BOTTOMLEFT",
+    ["conditions"] = {
+    },
+    ["information"] = {
+        ["groupOffset"] = true,
+        ["ignoreOptionsEventErrors"] = true,
+    },
+    ["xOffset"] = 0,
+}
